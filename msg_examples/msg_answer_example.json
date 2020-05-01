@@ -1,0 +1,23 @@
+{
+  "update_id": 479841596,
+  "message": {
+    "message_id": 353,
+    "from": {
+      "id": 431042483,
+      "is_bot": false,
+      "first_name": "Miroslav",
+      "last_name": "Zadoyan",
+      "username": "just_mirik",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": 431042483,
+      "first_name": "Miroslav",
+      "last_name": "Zadoyan",
+      "username": "just_mirik",
+      "type": "private"
+    },
+    "date": 1566912334,
+    "text": "hgf"
+  }
+}
