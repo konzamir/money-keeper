@@ -1,18 +1,6 @@
-from .commands import CommandsConfig
-from .states import StatesConfig
-from .user import UserConfig
-
-try:
-    from .db import DBConfig
-    from .telegram import TelegramConfig
-except ImportError as err:
-    raise Exception(
-        'Rename `configs/*.py-example` to '
-        '`configs/*.py` and set necessary '
-        'configs there!') from err
+from .app import AppConfig
+from .celery import CeleryConfig
 
 
-__all__ = [
-    'CommandsConfig', 'StatesConfig', 'UserConfig',
-    'DBConfig', 'TelegramConfig'
-]
+celery_config = CeleryConfig()
+app_config = AppConfig()

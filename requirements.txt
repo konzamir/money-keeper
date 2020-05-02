@@ -1,3 +1,3 @@
-python-dotenv
-aiohttp
-mongoengine
+mongoengine==0.19.1
+celerybeat-mongo==0.2.0
+celery==4.4.2

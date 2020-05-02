@@ -1,7 +1,4 @@
-from configs.base import BaseConfig
-
-
-class DBConfig(BaseConfig):
+class DBConfig:
     DB_HOST='money_keeper-mongo'
     DB_PORT='27017'
     DB_PASS=''
