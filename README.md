@@ -14,8 +14,10 @@ Link to the chatbot: <a href="t.me/money_amount_keeper_bot">Money Keeper</a>.
 - set amount limit for things (non-expensive staff) spending
 - increase bank amount
 - increase cash amount
-- decrease the food money amount value by input value, informing about the rest.
-- decrease the things money amount value by input value, informing about the rest.
+- decrease the food money amount value by input value, informing about 
+the rest.
+- decrease the things money amount value by input value, informing 
+about the rest.
 - decrease bank amount
 - decrease cash amount
 - each month update amounts for spend
